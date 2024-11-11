@@ -1,3 +1,6 @@
+<script>
+</script>
+
 <template>
   <div class="home">
     <Hero />
@@ -21,21 +24,6 @@
   </div>
 </template>
 
-<script>
-import { useHead } from '@unhead/vue';
-export default {
-
-  setup() {
-    useHead({
-      title: 'My awesome site',
-      meta: [{ property: '', content: '' }]
-    })
-
-    return {
-    };
-  },
-};
-</script>
 
 <style lang="scss" scoped>
 .divider {

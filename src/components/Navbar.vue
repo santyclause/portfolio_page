@@ -1,11 +1,9 @@
 <template>
-  <nav class="navbar fixed-top navbar-expand-lg transition p-3"
-    :class="scrolled ? 'navbar-light bg-light shadow scrolled' : ''">
+  <nav class="navbar fixed-top navbar-expand-lg transition p-3 bg-dark">
     <router-link class="d-flex align-items-center" to="/">
-      <img height="55" src="../assets/img/logo.png" alt="nav Logo" class="drop-shadow"
-        :class="scrolled ? '' : ''" />
-      <p class="fs-4 m-0 ms-2 text-primary" :class="scrolled ? 'text-dark' : 'text-shadow text-white'">
-        {{ name }}
+      <img height="55" src="../assets/img/logo.png" alt="nav Logo" class="drop-shadow" />
+      <p class="fs-4 m-0 ms-2 text-primary">
+        name
       </p>
     </router-link>
     <button @click="mobile = !mobile" class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -52,7 +50,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.navbar{
+.navbar {
   transition: background .35s linear;
   background-color: #00000000;
 }

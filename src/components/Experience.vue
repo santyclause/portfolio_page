@@ -1,5 +1,9 @@
+<script>
+
+</script>
+
 <template>
-  <div v-if="experiences.length">
+  <div>
     <div class="row mb-5 ms-lg-3">
       <div class="col-lg-10">
         <div class="h1 mt-3">
@@ -18,24 +22,23 @@
               Experiences
             </span>
           </li>
-          <li class="list-group-item" v-for="section in experiences">
+          <li class="list-group-item">
             <span>
-              {{ section.title }}
+              section.title
             </span>
           </li>
         </ul>
       </div>
       <div class="col-lg-7">
-        <div v-for="section in experiences">
+        <div>
           <h2 class="md-m-bottom">
-            <div>{{ section.title }} - {{ section.company }}</div>
+            <div>section.title - section.company</div>
           </h2>
 
           <div>
-            <p v-if="section.dates">
-              <strong>{{ section.dates }}</strong>
+            <p>
+              <strong>section.dates</strong>
             </p>
-            <Marked :value="section.summary" />
           </div>
         </div>
       </div>
@@ -43,17 +46,5 @@
   </div>
 </template>
 
-<script>
-import { computed } from 'vue';
-import { AppState } from '../AppState.js';
-
-export default {
-  setup() {
-    return {
-      experiences: computed(() => AppState.experiences)
-    }
-  }
-};
-</script>
 
 <style lang="scss" scoped></style>
