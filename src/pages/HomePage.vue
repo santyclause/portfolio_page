@@ -7,11 +7,20 @@
 
     <section class="container">
       <Applications />
+    </section>
+
+    <div class="divider mb-5 mt-3 bg-dark">
+      <h1 class="text-primary">My Experience</h1>
+    </div>
+
+    <section class="container-fluid">
       <Experience />
     </section>
 
-    <div class="divider bg-secondary">
-      <div class="display-4 text-light">SECTION</div>
+    <div class="divider bg-dark">
+      <div class="text-primary">
+        <h1>Contact Me</h1>
+      </div>
     </div>
 
     <section class="container">

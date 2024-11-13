@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    <div class="row mb-5 ms-lg-3">
+    <!-- <div class="row mb-5 mt-3">
       <div class="col-lg-10">
         <div class="h1 mt-3">
           <div>
@@ -12,32 +12,44 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="row">
-      <div class="col-lg-4 d-none d-lg-block">
-        <ul class="text-light p-2 list-group" style="top: 120px; position: sticky;">
-          <li class="list-group-item active bg-secondary">
-            <span class="badge">
-              Experiences
-            </span>
-          </li>
-          <li class="list-group-item">
-            <span>
-              section.title
-            </span>
-          </li>
-        </ul>
-      </div>
-      <div class="col-lg-7">
-        <div>
+      <div class="col-lg-12">
+        <div class="container exp-item">
           <h2 class="md-m-bottom">
-            <div>section.title - section.company</div>
+            <div>Web Development Intern - Boise CodeWorks</div>
           </h2>
 
           <div>
             <p>
-              <strong>section.dates</strong>
+              <strong>August, 2024 - November, 2024</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12 bg-increment">
+        <div class="container exp-item text-end">
+          <h2 class="md-m-bottom">
+            <div>Web Consultant - Silver Creek Software</div>
+          </h2>
+
+          <div>
+            <p>
+              <strong>January, 2020 - February, 2020</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="container exp-item">
+          <h2 class="md-m-bottom">
+            <div>Software/Web Developer - Silver Creek Software</div>
+          </h2>
+
+          <div>
+            <p>
+              <strong>June, 2015 - February, 2018</strong>
             </p>
           </div>
         </div>
@@ -47,4 +59,12 @@
 </template>
 
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.bg-increment {
+  background-color: #e4e4e4;
+}
+
+.exp-item {
+  padding: 3rem 0;
+}
+</style>

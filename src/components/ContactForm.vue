@@ -28,7 +28,6 @@ export default {
 
 <template>
   <div class="card">
-    <img src="../assets/img/bg.jpg" alt="example" class="rounded-top">
     <div class="card-body">
       <div class="fs-4 fw-bold mb-3">
         Get in touch!
