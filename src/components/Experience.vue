@@ -26,6 +26,16 @@
               <strong>August, 2024 - November, 2024</strong>
             </p>
           </div>
+
+          <div>
+            <p>
+              Tasked with daily labs and weekly checkpoints on a 9-5 schedule. Change this. General description of
+              responsibilities and tasks.
+            </p>
+            <p>
+              Skills used: Stuff. Maybe have this similar to project section
+            </p>
+          </div>
         </div>
       </div>
       <div class="col-lg-12 bg-increment">

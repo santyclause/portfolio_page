@@ -3,7 +3,7 @@
     <router-link class="d-flex align-items-center" to="/">
       <img height="55" src="../assets/img/logo.png" alt="nav Logo" class="drop-shadow" />
       <p class="fs-4 m-0 ms-2 text-primary">
-        name
+        Matthew Marchal
       </p>
     </router-link>
     <button @click="mobile = !mobile" class="navbar-toggler" type="button" data-bs-toggle="collapse"
